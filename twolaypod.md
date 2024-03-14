@@ -125,7 +125,7 @@ Problem (already for $k=10$ -- LMI size is $~20\ 000$ while accuracy is bad
 Our approach: two level reduction
 
 \begin{equation}
-\dot {\tilde x} (t)  = \tilde A(\rho(\tilde x(t)))\, \tilde x(t), \quad \tilde x(0)=\hat x_0 \in \mathbb R^{k_x}, \quad \rho(\tilde x(t)) \in \mathbb R^{k_r}
+\dot {\tilde x} (t)  = \tilde A(\rho(\tilde x(t)))\, \tilde x(t), \quad \tilde x(0)=\tilde x_0 \in \mathbb R^{k_x}, \quad \rho(\tilde x(t)) \in \mathbb R^{k_r}
 \end{equation}
 
 For $k_x=36$ and $k_r=6$, LMI size is $254$ while accuracy is good.
@@ -139,6 +139,10 @@ For $k_x=36$ and $k_r=6$, LMI size is $254$ while accuracy is good.
 How about further reduction?
 
 The critical factor is $2^{k_r+1}$ -- the number of vertices of the bounding box for $\rho(t)\in \mathbb R^{k_r}$.
+
+---
+
+## Further Reduction?
 
  * reduce $\rho$ further by PCA -- Werner? -- we already choose $\rho$ optimally 
  * use a polytope $\texttt{R}$ of less vertices that encloses $\rho$
