@@ -1,8 +1,8 @@
 ---
 title: Two-step MOR for $H_\infty$-robust nonlinear controller design
 author:
-- Jan Heiland
-- Amritam Das
+- Jan Heiland (MPI/OVGU Magdeburg)
+- Amritam Das (TU Eindhoven)
 date: GAMM Annual Meeting at Magdeburg, March 21, 2024
 title-slide-attributes:
     data-background-image: theme-pics/mpi-bridge.gif
@@ -159,6 +159,8 @@ and for $k_x=36$ and $k_r=6$, the LMI size is $254$ while accuracy is good.
 
 ## {data-background-image="pics/jointlimcies.png" data-background-size="cover"}
 
+. . .
+
 ::: {style="position: absolute; width: 45%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(253, 246, 227, 0.95); padding: 20px; font-size: 40px; text-align: left;"}
 
 Illustration of model accuracy via the limit cycles for
@@ -228,13 +230,13 @@ Example case of $k_x=36$ and $k_r=6$.
 1. *bounding box* -- LMI size: $4608 = 2^7\cdot 36$ 
 2. *optimized polytope* -- LMI size: $720 = 20\cdot 36$
 
-We compare runtime against achieved performance $\gamma$ of the controller from `hinfgs`.
+We compare the `hinfgs` runtime against achieved performance $\gamma$ of the
+controller.
 
-| $\gamma$ | 8 | 2 | 0.5 | 0.125 |  0.038 |
-| :-- | ---: | ---: | ---: | ---: | ---: |
-| `bb` | 291.0 | **337.4** | 720.7  | 1482.8 | 2164.4 |
-| `poly` | 203.2 | 350.4 | 517.1 | **714.4** | --- |
-    
+![](gammaplot.png)
+
+* The polytope representation is generally and significantly faster
+* the bounding box achieves a better $H_\infty$ performance
 
 # Conclusion
 
