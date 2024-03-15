@@ -228,8 +228,12 @@ Example case of $k_x=36$ and $k_r=6$.
 1. *bounding box* -- LMI size: $4608 = 2^7\cdot 36$ 
 2. *optimized polytope* -- LMI size: $720 = 20\cdot 36$
 
-We compare runtime and achieved performance $\gamma$ in `hinfgs`
+We compare runtime against achieved performance $\gamma$ of the controller from `hinfgs`.
 
+| $\gamma$ | 8 | 2 | 0.5 | 0.125 |  0.038 |
+| :-- | ---: | ---: | ---: | ---: | ---: |
+| `bb` | 291.0 | **337.4** | 720.7  | 1482.8 | 2164.4 |
+| `poly` | 203.2 | 350.4 | 517.1 | **714.4** | --- |
     
 
 # Conclusion
