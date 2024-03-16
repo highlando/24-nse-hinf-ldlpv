@@ -209,8 +209,6 @@ Note the extremal values in the polytope
 
 :::
 
----
-
 # Controller Design
 
 
