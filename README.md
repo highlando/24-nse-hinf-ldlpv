@@ -1,4 +1,7 @@
 ---
+author:
+- Jan Heiland
+- Amritam Das (TU Eindhoven)
 occasion: GAMM Annual Meeting
 date: 2024-03-21
 place: Magdeburg
