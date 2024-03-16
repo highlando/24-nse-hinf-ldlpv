@@ -16,4 +16,4 @@ The base file is `slides.md`
 
 Use `pandoc` to turn them into `html`; see `mkdc.sh` for the instructions.
 
-See [http://www.janheiland.de/24-nse-hinf-ldlpv/#/title-slide](www.janheiland.de/24-nse-hinf-ldlpv) for the rendered slides.
+See [www.janheiland.de/24-nse-hinf-ldlpv](http://www.janheiland.de/24-nse-hinf-ldlpv/#/title-slide) for the rendered slides.
