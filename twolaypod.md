@@ -97,7 +97,7 @@ For parametrizations $x(t) = \Phi\rho(t)$, with $\rho(t) \in \mathbb R^{r}$, the
 \begin{equation}
 XA(\Phi \rho) + A(\Phi \rho)^TX < 0
 \end{equation}
-has to be checked on an infinite set $\mathcal R\in \mathbb R^{r}$.
+has to be checked on an infinite set $\mathcal R\in \subset R^{r}$.
 
 # Polytopic LPV System Approximations
 
@@ -233,7 +233,7 @@ Example case of $k_x=36$ and $k_r=6$.
 We compare the `hinfgs` runtime against achieved performance $\gamma$ of the
 controller.
 
-![](gammaplot.png)
+![](pics/gammaplot.png)
 
 * The polytope representation is generally and significantly faster
 * the bounding box achieves a better $H_\infty$ performance

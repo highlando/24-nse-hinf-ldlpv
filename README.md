@@ -15,7 +15,7 @@ keywords:
 - Navier-Stokes equations
 ---
 
-The base file is `slides.md`
+The base file is `twolaypod.md`
 
 Use `pandoc` to turn them into `html`; see `mkdc.sh` for the instructions.
 
