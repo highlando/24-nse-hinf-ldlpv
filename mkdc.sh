@@ -1,7 +1,7 @@
 FLNM=twolaypod
 INPFILE=${FLNM}.md
 
-pandoc ${FLNM}.md -o index.html \
+pandoc ${FLNM}.md -o slides.html \
     --citeproc \
     --mathjax  \
     -t revealjs --slide-level=2 -s \
