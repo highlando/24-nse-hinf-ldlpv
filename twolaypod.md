@@ -97,7 +97,7 @@ For parametrizations $x(t) = \Phi\rho(t)$, with $\rho(t) \in \mathbb R^{r}$, the
 \begin{equation}
 XA(\Phi \rho) + A(\Phi \rho)^TX < 0
 \end{equation}
-has to be checked on an infinite set $\mathcal R \subset R^{r}$.
+has to be checked on an infinite set $\mathcal R \subset \mathbb R^{r}$.
 
 # Polytopic LPV System Approximations
 
